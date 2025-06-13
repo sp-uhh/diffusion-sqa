@@ -1,0 +1,3 @@
+[submodule "edm2"]
+	path = edm2
+	url = https://github.com/NVlabs/edm2.git

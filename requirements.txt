@@ -1,0 +1,10 @@
+click
+librosa
+more-itertools
+numpy
+psutil
+soundfile
+tensorboard
+torch
+torchaudio
+tqdm
