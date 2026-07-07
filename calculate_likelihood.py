@@ -201,7 +201,7 @@ def cmdline(**opts):
     dist.print0(f'Setting up {type(encoder).__name__}...')
     if encoder is None:
         dist.print0("Encoder not found in the checkpoint. Using the default MelSpectrogramEncoder.")
-        encoder = dnnlib.util.construct_class_by_name(class_name='training.encoders.MelSpectrogramEncoder', device=opts.device)
+        encoder = dnnlib.util.construct_class_by_name(class_name='src.encoders.MelSpectrogramEncoder', device=opts.device)
 
     if dist.get_rank() == 0:
         # Create a csv file to store the results.
