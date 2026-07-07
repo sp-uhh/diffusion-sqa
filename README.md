@@ -57,14 +57,12 @@ The code and checkpoints are licensed under the [Creative Commons Attribution-No
 
 We kindly ask you to cite our papers in your publication when using any of our research or code:
 ```bib
-@misc{deoliveira2024nonintrusivespeechqualityassessment,
-    title={Non-intrusive Speech Quality Assessment with Diffusion Models Trained on Clean Speech}, 
-    author={Danilo de Oliveira and Julius Richter and Jean-Marie Lemercier and Simon Welker and Timo Gerkmann},
-    year={2024},
-    eprint={2410.17834},
-    archivePrefix={arXiv},
-    primaryClass={eess.AS},
-    url={https://arxiv.org/abs/2410.17834}, 
+@inproceedings{deoliveira2025nonintrusive,
+  title={Non-intrusive Speech Quality Assessment with Diffusion Models Trained on Clean Speech},
+  author={{de Oliveira}, Danilo and Richter, Julius and Lemercier, Jean-Marie and Welker, Simon and Gerkmann, Timo},
+  booktitle={Proc. Interspeech 2025},
+  pages={2330--2334},
+  year={2025}
 }
 ```
 > [1] Tero Karras, Miika Aittala, Jaakko Lehtinen, Janne Hellsten, Timo Aila, Samuli Laine, ["Analyzing and Improving the Training Dynamics of Diffusion Models"](https://arxiv.org/abs/2312.02696), CVPR 2024. [[Code]](https://github.com/NVlabs/edm2/tree/main)
